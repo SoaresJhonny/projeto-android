@@ -1,0 +1,243 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('idroid.otf') format('opentype');
+}
+
+header {
+    background-image: linear-gradient(to bottom, #3de697, #10411f);
+    padding-bottom: 15px;
+    box-shadow: 0px 5px 15px #3b3b3b;
+}
+
+header > h1 {
+    font-family: 'idroid', Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+header > p {
+    font-family: "roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 500px;
+    color: rgb(228, 228, 228);
+    text-align: center;
+    padding-top: 1px;
+}
+
+header > nav > a {
+    font-family: "roboto", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+header > nav > a:hover {
+    text-decoration: underline;
+    background-color: #3de697;
+    color: #ffffff;
+    transition-duration: 0.5s;
+}
+
+
+body {
+    background-color: #85dfb9;
+    margin: 0;
+}
+
+main {
+    background-color: white;
+    max-width: 900px;
+    min-width: 320px;
+    margin: auto;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    box-shadow: 0px 5px 15px #3b3b3b;
+    border-radius: 0px 0px 10px 10px;
+}
+
+main > h1 {
+    font-family: 'idroid', Arial, sans-serif;
+    font-size: 40px;
+    color: #0d6e2c;
+    padding-top: 1px;
+    text-align: center;
+}
+
+main > h2 {
+    font-family: 'idroid', Arial, sans-serif;
+    font-size: 30px;
+    color: #0d6e2c;
+    background-image: linear-gradient(to right, #bef1da, white);
+    
+}
+
+main > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 450px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.8em;
+}
+
+.imagens {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+}
+
+#bugdroidimg {
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.video {
+    background-color: #08411a;
+    margin-bottom: 30px;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 56.5%;
+   position: relative;
+}
+
+div.video > iframe {
+   position: absolute;
+   top: 5%;
+   left: 5%;
+   width: 90%;
+   height: 90%;
+}
+
+main > h2 {
+    font-family: 'idroid', Arial, sans-serif;
+    font-size: 30px;
+    color: #0d6e2c;
+    background-image: linear-gradient(to right, #bef1da, white);
+}
+
+main > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 450px;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+
+div {
+    display: flex;
+    align-items: center;
+}
+
+.uldireita {
+    list-style-type: none;
+    display: inline-block;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+    text-decoration: underline;
+    max-width: 180px;
+}
+
+.ulesquerda {
+    list-style-type: none;
+    display: inline-block;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+    text-decoration: underline;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 450px;
+    text-align: justify;
+}
+
+main > article {
+    background-color: #bef1da;
+    margin-left:  5px;
+    margin-right: 5px;
+    padding-left: 10px;
+    border-radius: 10px 10px 10px 10px;
+    padding-bottom: 10px;
+    box-shadow: 3px 3px 10px #3b3b3b;
+}
+
+main > article > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 500px;
+    text-align: justify;
+    text-indent: 30px;
+    padding-right: 10px;
+}
+
+#titulofinal {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: #2fa765;
+    color: white;
+    margin-left: -10px;
+    padding: 10px 10px;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    background-color: #0d6e2c;
+    padding: 2px 2px;
+    text-align: center;
+}
+
+.final {
+    color: white;
+    text-decoration: underline;
+}
+
+b {
+    color: #236d44;
+}
+
+a {
+
+    color: #236d44;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.ig {
+    color: white;
+    text-decoration: underline;
+}
+
+
+.imagens {
+    width: 100%;
+}
+
