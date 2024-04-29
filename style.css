@@ -42,10 +42,12 @@ header > nav > a {
 }
 
 header > nav > a:hover {
-    text-decoration: underline;
+    text-decoration: none;
     background-color: #3de697;
     color: #ffffff;
-    transition-duration: 0.5s;
+    font-size: 17px;
+    padding-bottom: 14px;
+    transition-duration: 0.7s;
 }
 
 
@@ -221,7 +223,6 @@ b {
 }
 
 a {
-
     color: #236d44;
     font-weight: bold;
     text-decoration: none;
