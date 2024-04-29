@@ -60,7 +60,7 @@ body {
 
 main {
     background-color: white;
-    max-width: 900px;
+    max-width: 1000px;
     min-width: 320px;
     margin: auto;
     padding-top: 10px;
@@ -81,13 +81,13 @@ main > h1 {
 
 @media only screen and (max-width: 768px) {
     main > h1 {
-        font-size: 30px;
+        font-size: 20px;
     }
 }
 
 main > h2 {
     font-family: 'idroid', Arial, sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     color: #0d6e2c;
     background-image: linear-gradient(to right, #bef1da, white);
     
