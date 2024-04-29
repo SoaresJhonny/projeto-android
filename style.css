@@ -5,11 +5,15 @@
     src: url('fontes/idroid.otf') format('opentype');
 }
 
+
+
 header {
     background-image: linear-gradient(to bottom, #3de697, #10411f);
     padding-bottom: 15px;
     box-shadow: 0px 5px 15px #3b3b3b;
+    margin-top: 0;
     }
+
 
 
 header > h1 {
@@ -19,7 +23,9 @@ header > h1 {
     color: white;
     text-align: center;
     padding-top: 20px;
+    margin-top: 0;
 }
+
 
 
 header > p {
@@ -29,7 +35,16 @@ header > p {
     color: rgb(228, 228, 228);
     text-align: center;
     padding-top: 1px;
+    padding-bottom: 5px;
 }
+
+
+
+nav {
+    width: max-content;
+}
+
+
 
 header > nav > a {
     font-family: "roboto", sans-serif;
@@ -37,9 +52,11 @@ header > nav > a {
     text-decoration: none;
     font-weight: 600;
     color: white;
-    padding: 15px;
+    padding: 10px;
     border-radius: 10px;
 }
+
+
 
 header > nav > a:hover {
     text-decoration: none;
@@ -51,10 +68,21 @@ header > nav > a:hover {
 }
 
 
+
+@media only screen and (max-width: 768px) {
+    nav {
+        margin: auto;
+        }
+}
+
+
+
 body {
     background-color: #85dfb9;
     margin: 0;
 }
+
+
 
 main {
     background-color: white;
@@ -69,11 +97,7 @@ main {
     border-radius: 0px 0px 10px 10px;
 }
 
-@media only screen and (max-width: 768px) {
-    main {
-     
-    }
-}
+
 
 main > h1 {
     font-family: 'idroid', Arial, sans-serif;
@@ -83,11 +107,15 @@ main > h1 {
     text-align: center;
 }
 
+
+
 @media only screen and (max-width: 768px) {
     main > h1 {
         font-size: 30px;
     }
 }
+
+
 
 main > h2 {
     font-family: 'idroid', Arial, sans-serif;
@@ -97,11 +125,15 @@ main > h2 {
     
 }
 
+
+
 @media only screen and (max-width: 768px) {
     main > h2 {
         font-size: 25px;
     }
 }
+
+
 
 main > p {
     font-family: Arial, Helvetica, sans-serif;
@@ -112,6 +144,8 @@ main > p {
     line-height: 1.8em;
 }
 
+
+
 .imagens {
     display: block;
     margin-left: auto;
@@ -119,12 +153,16 @@ main > p {
     width: 900px;
 }
 
+
+
 #bugdroidimg {
     display: block;
     width: 400px;
     margin-left: auto;
     margin-right: auto;
 }
+
+
 
 div.video {
     background-color: #08411a;
@@ -134,6 +172,8 @@ div.video {
     padding-bottom: 56.5%;
    position: relative;
 }
+
+
 
 div.video > iframe {
    position: absolute;
@@ -150,6 +190,8 @@ div {
     align-items: center;
 }
 
+
+
 .uldireita {
     list-style-type: none;
     display: inline-block;
@@ -160,6 +202,8 @@ div {
     max-width: 180px;
 }
 
+
+
 .ulesquerda {
     list-style-type: none;
     display: inline-block;
@@ -169,12 +213,16 @@ div {
     text-decoration: underline;
 }
 
+
+
 li {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: 450px;
     text-align: justify;
 }
+
+
 
 main > article {
     background-color: #bef1da;
@@ -186,6 +234,8 @@ main > article {
     box-shadow: 3px 3px 10px #3b3b3b;
 }
 
+
+
 main > article > p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
@@ -194,6 +244,8 @@ main > article > p {
     text-indent: 30px;
     padding-right: 10px;
 }
+
+
 
 #titulofinal {
     font-family: Arial, Helvetica, sans-serif;
@@ -206,6 +258,8 @@ main > article > p {
     
 }
 
+
+
 footer {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -217,14 +271,20 @@ footer {
     text-align: center;
 }
 
+
+
 .final {
     color: white;
     text-decoration: underline;
 }
 
+
+
 b {
     color: #236d44;
 }
+
+
 
 a {
     color: #236d44;
@@ -232,14 +292,19 @@ a {
     text-decoration: none;
 }
 
+
+
 a:hover {
     text-decoration: underline;
 }
+
+
 
 .ig {
     color: white;
     text-decoration: underline;
 }
+
 
 
 .imagens {
