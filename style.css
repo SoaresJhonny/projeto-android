@@ -7,11 +7,15 @@
 
 header {
     background-image: linear-gradient(to bottom, #3de697, #10411f);
-    width: 100%;
     padding-bottom: 15px;
     box-shadow: 0px 5px 15px #3b3b3b;
 }
 
+@media only screen and (max-width: 768px) {
+    header {
+        width: 100%;
+    }
+}
 
 header > h1 {
     font-family: 'idroid', Arial, Helvetica, sans-serif;
